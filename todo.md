@@ -25,3 +25,4 @@
 - [x] Adjust coach photo to fit properly within green border (remove overflow/cropping)
 - [x] Remove extra dark background space - make green border fit exactly to image size
 - [x] Fix photo fitting to green border on mobile phones (portrait mode)
+- [x] Change coach photo from landscape to portrait orientation (taller, narrower display)

@@ -35,7 +35,7 @@ export default function Home() {
               <img 
                 src="/coach-photo.jpg" 
                 alt="Coach Okello - NASM Certified Personal Trainer"
-                className="rounded w-full max-w-[calc(100vw-2rem)] md:max-w-md h-auto"
+                className="rounded w-full max-w-[280px] md:max-w-[320px] h-auto"
               />
             </div>
           </div>
