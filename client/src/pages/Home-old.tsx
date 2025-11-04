@@ -30,12 +30,12 @@ export default function Home() {
               START YOUR JOURNEY
             </Link>
           </div>
-          <div className="relative">
-            <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg p-1 inline-block">
+          <div className="relative flex justify-center md:justify-end">
+            <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg p-1 inline-block max-w-full md:w-auto">
               <img 
                 src="/coach-photo.jpg" 
                 alt="Coach Okello - NASM Certified Personal Trainer"
-                className="rounded w-full max-w-md h-auto"
+                className="rounded w-full max-w-[calc(100vw-2rem)] md:max-w-md h-auto"
               />
             </div>
           </div>
