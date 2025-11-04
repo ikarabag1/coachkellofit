@@ -16,6 +16,10 @@
 - [x] Verify responsive design on mobile, tablet, desktop
 - [x] Test Safari compatibility for mailto: and tel: links
 - [x] Fix all TypeScript errors
-- [ ] Create deployment checkpoint
+- [x] Create deployment checkpoint
 - [ ] Configure custom domain (www.coachkellofit.com)
 - [ ] Deliver public URL to user
+
+## New Tasks
+
+- [x] Adjust coach photo to fit properly within green border (remove overflow/cropping)
