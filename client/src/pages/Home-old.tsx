@@ -31,12 +31,14 @@ export default function Home() {
             </Link>
           </div>
           <div className="relative flex justify-center md:justify-end">
-            <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg p-1 inline-block max-w-full md:w-auto">
-              <img 
-                src="/coach-photo.jpg" 
-                alt="Coach Okello - NASM Certified Personal Trainer"
-                className="rounded w-full max-w-[280px] md:max-w-[320px] h-auto"
-              />
+            <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg p-1">
+              <div className="w-[280px] h-[400px] md:w-[320px] md:h-[450px] flex items-center justify-center bg-slate-900 rounded">
+                <img 
+                  src="/coach-photo.jpg" 
+                  alt="Coach Okello - NASM Certified Personal Trainer"
+                  className="rounded w-full h-full object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>
