@@ -23,3 +23,4 @@
 ## New Tasks
 
 - [x] Adjust coach photo to fit properly within green border (remove overflow/cropping)
+- [x] Remove extra dark background space - make green border fit exactly to image size

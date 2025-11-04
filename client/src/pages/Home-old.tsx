@@ -31,11 +31,11 @@ export default function Home() {
             </Link>
           </div>
           <div className="relative">
-            <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg p-1">
+            <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg p-1 inline-block">
               <img 
                 src="/coach-photo.jpg" 
                 alt="Coach Okello - NASM Certified Personal Trainer"
-                className="rounded w-full h-96 object-contain bg-slate-800"
+                className="rounded w-full max-w-md h-auto"
               />
             </div>
           </div>
