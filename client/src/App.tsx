@@ -8,14 +8,16 @@ import Home from "./pages/Home-old";
 import Programs from "./pages/Programs";
 import Quiz from "./pages/Quiz";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
 
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/programs"} component={Programs} />
-      <Route path={"/quiz"} component={Quiz} />
-      <Route path={"/contact"} component={Contact} />
+          <Route path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/programs" component={Programs} />
+      <Route path="/quiz" component={Quiz} />
+      <Route path="/contact" component={Contact} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

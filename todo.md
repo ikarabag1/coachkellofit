@@ -28,3 +28,5 @@
 - [x] Change coach photo from landscape to portrait orientation (taller, narrower display)
 - [x] Fix mobile Chrome to show full portrait photo without head cutoff
 - [x] Make green border frame portrait-shaped (taller than wide) on mobile browser
+- [x] Create About Me page with comprehensive bio and services paragraph
+- [x] Add About Me tab to navigation menu

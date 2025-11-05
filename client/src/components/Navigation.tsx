@@ -17,6 +17,9 @@ export default function Navigation() {
           <Link to="/" className="text-white hover:text-green-400 transition-colors font-semibold">
             Home
           </Link>
+          <Link to="/about" className="text-white hover:text-green-400 transition-colors font-semibold">
+            About
+          </Link>
           <Link to="/programs" className="text-white hover:text-green-400 transition-colors font-semibold">
             Programs
           </Link>
@@ -56,6 +59,13 @@ export default function Navigation() {
             onClick={() => setIsOpen(false)}
           >
             Home
+          </Link>
+          <Link
+            to="/about"
+            className="block text-white hover:text-green-400 transition-colors font-semibold"
+            onClick={() => setIsOpen(false)}
+          >
+            About
           </Link>
           <Link
             to="/programs"
