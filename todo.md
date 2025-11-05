@@ -32,3 +32,4 @@
 - [x] Add About Me tab to navigation menu
 - [x] Remove black letterbox edges at top and bottom of photo inside green frame
 - [x] Replace About Me page photo with new professional portrait
+- [x] Change all instances of "Okello" to "Kello" throughout the website

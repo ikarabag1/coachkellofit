@@ -14,14 +14,14 @@ export default function Home() {
       <section className="py-20 px-4 md:py-32">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <p className="text-green-400 text-sm font-semibold mb-2">ENGINEERED BY OKELLO</p>
+            <p className="text-green-400 text-sm font-semibold mb-2">ENGINEERED BY KELLO</p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
               DISCOVER YOUR <span className="text-green-400">TRANSFORMATION</span>
               <br />
               PHYSICAL, MENTAL, SPIRITUAL
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Change your course of wellness and engineer a plan that is directly tailored to your holistic health goals. Okello W, NASM Certified Personal Trainer, combines science-backed training with a Plant-Based Alkaline Dr. Sebi Electric Nutritional Lifestyle.
+              Change your course of wellness and engineer a plan that is directly tailored to your holistic health goals. Kello W, NASM Certified Personal Trainer, combines science-backed training with a Plant-Based Alkaline Dr. Sebi Electric Nutritional Lifestyle.
             </p>
             <Link
               to="/quiz"
@@ -35,7 +35,7 @@ export default function Home() {
               <div className="w-[280px] h-[400px] md:w-[320px] md:h-[450px] rounded overflow-hidden">
                 <img 
                   src="/coach-photo.jpg" 
-                  alt="Coach Okello - NASM Certified Personal Trainer"
+                  alt="Coach Kello - NASM Certified Personal Trainer"
                   className="w-full h-full object-cover object-center"
                 />
               </div>

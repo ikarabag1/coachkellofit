@@ -9,7 +9,7 @@ export default function About() {
       {/* Hero Section with Photo */}
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center">ABOUT COACH OKELLO</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center">ABOUT COACH KELLO</h1>
           
           {/* Photo */}
           <div className="flex justify-center mb-12">
@@ -17,7 +17,7 @@ export default function About() {
               <div className="w-[280px] h-[400px] md:w-[320px] md:h-[450px] rounded overflow-hidden">
                 <img 
                   src="/coach-photo-about.jpg" 
-                  alt="Coach Okello - NASM Certified Personal Trainer"
+                  alt="Coach Kello - NASM Certified Personal Trainer"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
@@ -27,7 +27,7 @@ export default function About() {
           {/* Bio Paragraph */}
           <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-8 mb-8">
             <p className="text-lg leading-relaxed text-gray-200">
-              Okello W is a NASM Certified Personal Trainer dedicated to engineering transformational wellness journeys that honor the complete human experience—physical, mental, and spiritual. With a deep commitment to holistic health, Coach Okello combines science-backed fitness training with the healing principles of Plant-Based Alkaline Dr. Sebi Electric Nutritional Lifestyle to help clients achieve sustainable, life-changing results. His approach goes beyond traditional personal training; he offers personalized 1:1 coaching programs tailored to individual goals, comprehensive transformational journeys that address body, mind, and spirit, and expert guidance in alkaline nutrition and natural healing protocols. Understanding that financial barriers should never prevent transformation, Coach Okello provides sliding scale sessions to make wellness accessible to all income levels. He also believes in the power of community, leading free fitness classes in the park twice monthly and organizing non-profit hiking adventures that combine outdoor fitness with meaningful community service. Whether you're seeking to build strength, lose weight, heal through nutrition, find mental clarity, or connect with a supportive wellness community, Coach Okello creates a safe, empowering space where your unique journey is honored and your goals become achievable realities.
+              Kello W is a NASM Certified Personal Trainer dedicated to engineering transformational wellness journeys that honor the complete human experience—physical, mental, and spiritual. With a deep commitment to holistic health, Coach Kello combines science-backed fitness training with the healing principles of Plant-Based Alkaline Dr. Sebi Electric Nutritional Lifestyle to help clients achieve sustainable, life-changing results. His approach goes beyond traditional personal training; he offers personalized 1:1 coaching programs tailored to individual goals, comprehensive transformational journeys that address body, mind, and spirit, and expert guidance in alkaline nutrition and natural healing protocols. Understanding that financial barriers should never prevent transformation, Coach Kello provides sliding scale sessions to make wellness accessible to all income levels. He also believes in the power of community, leading free fitness classes in the park twice monthly and organizing non-profit hiking adventures that combine outdoor fitness with meaningful community service. Whether you're seeking to build strength, lose weight, heal through nutrition, find mental clarity, or connect with a supportive wellness community, Coach Kello creates a safe, empowering space where your unique journey is honored and your goals become achievable realities.
             </p>
           </div>
 
