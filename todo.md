@@ -30,3 +30,4 @@
 - [x] Make green border frame portrait-shaped (taller than wide) on mobile browser
 - [x] Create About Me page with comprehensive bio and services paragraph
 - [x] Add About Me tab to navigation menu
+- [x] Remove black letterbox edges at top and bottom of photo inside green frame

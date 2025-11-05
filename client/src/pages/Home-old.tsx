@@ -32,11 +32,11 @@ export default function Home() {
           </div>
           <div className="relative flex justify-center md:justify-end">
             <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg p-1">
-              <div className="w-[280px] h-[400px] md:w-[320px] md:h-[450px] flex items-center justify-center bg-slate-900 rounded">
+              <div className="w-[280px] h-[400px] md:w-[320px] md:h-[450px] rounded overflow-hidden">
                 <img 
                   src="/coach-photo.jpg" 
                   alt="Coach Okello - NASM Certified Personal Trainer"
-                  className="rounded w-full h-full object-contain"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
             </div>
