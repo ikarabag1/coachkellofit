@@ -31,3 +31,4 @@
 - [x] Create About Me page with comprehensive bio and services paragraph
 - [x] Add About Me tab to navigation menu
 - [x] Remove black letterbox edges at top and bottom of photo inside green frame
+- [x] Replace About Me page photo with new professional portrait

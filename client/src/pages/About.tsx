@@ -16,7 +16,7 @@ export default function About() {
             <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg p-1">
               <div className="w-[280px] h-[400px] md:w-[320px] md:h-[450px] rounded overflow-hidden">
                 <img 
-                  src="/coach-photo.jpg" 
+                  src="/coach-photo-about.jpg" 
                   alt="Coach Okello - NASM Certified Personal Trainer"
                   className="w-full h-full object-cover object-center"
                 />
