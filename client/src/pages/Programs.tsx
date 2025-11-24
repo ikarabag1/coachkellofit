@@ -31,7 +31,7 @@ export default function Programs() {
         'Mindfulness training',
         'Energy optimization',
       ],
-      color: 'from-white/10 to-white/5',
+      color: 'from-purple-500 to-violet-600',
       icon: '🌟',
     },
     {
@@ -46,7 +46,7 @@ export default function Programs() {
         'Detox protocols',
         'Lifestyle integration',
       ],
-      color: 'from-green-500 to-emerald-600',
+      color: 'from-emerald-500 to-teal-600',
       icon: '🌱',
     },
     {
@@ -61,7 +61,7 @@ export default function Programs() {
         'Community connection',
         'Affordable access',
       ],
-      color: 'from-white/10 to-white/5',
+      color: 'from-blue-500 to-cyan-600',
       icon: '🤝',
     },
     {
@@ -91,7 +91,7 @@ export default function Programs() {
         'Mental wellness',
         'Purpose-driven fitness',
       ],
-      color: 'from-orange-500 to-red-500',
+      color: 'from-amber-500 to-yellow-600',
       icon: '🥾',
     },
   ]
@@ -117,16 +117,10 @@ export default function Programs() {
             {programs.map(program => (
               <div
                 key={program.id}
-                className={`bg-white/10 backdrop-blur-sm border-2 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl ${
-                  program.id === 1 ? 'border-green-500/50 hover:border-green-400' :
-                  program.id === 3 ? 'border-green-500/50 hover:border-green-400' :
-                  program.id === 5 ? 'border-orange-500/50 hover:border-orange-400' :
-                  program.id === 6 ? 'border-orange-500/50 hover:border-orange-400' :
-                  'border-white/20 hover:border-white/40'
-                }`}
+                className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg overflow-hidden hover:border-white/40 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/20"
               >
-                {/* Header with icon */}
-                <div className="bg-white/5 p-6 text-center border-b border-white/10">
+                {/* Header with gradient and icon */}
+                <div className={`bg-gradient-to-r ${program.color} p-6 text-center`}>
                   <div className="text-5xl mb-2">{program.icon}</div>
                   <h3 className="text-xl font-bold text-white">{program.title}</h3>
                 </div>
@@ -139,7 +133,7 @@ export default function Programs() {
                   <ul className="space-y-3 mb-8">
                     {program.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start gap-3">
-                        <span className="text-orange-400 mt-1">✓</span>
+                        <span className="text-green-400 mt-1">✓</span>
                         <span className="text-gray-300">{feature}</span>
                       </li>
                     ))}
@@ -171,7 +165,7 @@ export default function Programs() {
               { title: 'Community Focused', description: 'Building stronger communities together' },
             ].map((item, idx) => (
               <div key={idx} className="text-center">
-                <h3 className="text-xl font-bold mb-3 bg-gradient-to-r from-green-400 to-orange-400 bg-clip-text text-transparent">{item.title}</h3>
+                <h3 className="text-xl font-bold mb-3 text-green-400">{item.title}</h3>
                 <p className="text-gray-300">{item.description}</p>
               </div>
             ))}
