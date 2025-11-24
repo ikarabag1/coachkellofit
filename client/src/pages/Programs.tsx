@@ -31,7 +31,7 @@ export default function Programs() {
         'Mindfulness training',
         'Energy optimization',
       ],
-      color: 'from-purple-500 to-violet-600',
+      color: 'from-white/10 to-white/5',
       icon: '🌟',
     },
     {
@@ -46,7 +46,7 @@ export default function Programs() {
         'Detox protocols',
         'Lifestyle integration',
       ],
-      color: 'from-emerald-500 to-teal-600',
+      color: 'from-green-500 to-emerald-600',
       icon: '🌱',
     },
     {
@@ -61,7 +61,7 @@ export default function Programs() {
         'Community connection',
         'Affordable access',
       ],
-      color: 'from-blue-500 to-cyan-600',
+      color: 'from-white/10 to-white/5',
       icon: '🤝',
     },
     {
@@ -91,7 +91,7 @@ export default function Programs() {
         'Mental wellness',
         'Purpose-driven fitness',
       ],
-      color: 'from-amber-500 to-yellow-600',
+      color: 'from-orange-500 to-red-500',
       icon: '🥾',
     },
   ]
@@ -117,10 +117,16 @@ export default function Programs() {
             {programs.map(program => (
               <div
                 key={program.id}
-                className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg overflow-hidden hover:border-white/40 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/20"
+                className={`bg-white/10 backdrop-blur-sm border-2 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl ${
+                  program.id === 1 ? 'border-green-500/50 hover:border-green-400' :
+                  program.id === 3 ? 'border-green-500/50 hover:border-green-400' :
+                  program.id === 5 ? 'border-orange-500/50 hover:border-orange-400' :
+                  program.id === 6 ? 'border-orange-500/50 hover:border-orange-400' :
+                  'border-white/20 hover:border-white/40'
+                }`}
               >
-                {/* Header with gradient and icon */}
-                <div className={`bg-gradient-to-r ${program.color} p-6 text-center`}>
+                {/* Header with icon */}
+                <div className="bg-white/5 p-6 text-center border-b border-white/10">
                   <div className="text-5xl mb-2">{program.icon}</div>
                   <h3 className="text-xl font-bold text-white">{program.title}</h3>
                 </div>

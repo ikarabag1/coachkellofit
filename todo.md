@@ -36,3 +36,6 @@
 - [x] Add more orange throughout website while maintaining balance
 - [x] Make orange a stronger secondary brand color alongside green
 - [x] Update all page components with balanced green-orange color scheme
+- [x] Simplify color scheme to minimalistic design (green and orange only)
+- [x] Remove rainbow-style multi-color approach (purple, blue, amber, etc.)
+- [x] Create clean, professional look with limited color palette

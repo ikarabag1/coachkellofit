@@ -85,7 +85,7 @@ export default function Home() {
 
             {/* Program Card 2 */}
             <div
-              className="bg-gradient-to-br from-purple-500/20 to-violet-600/20 border border-purple-500/30 rounded-lg p-8 hover:border-purple-400 transition-all duration-300 cursor-pointer"
+              className="bg-gradient-to-br from-white/10 to-white/5 border border-white/20 rounded-lg p-8 hover:border-orange-400 transition-all duration-300 cursor-pointer"
               onMouseEnter={() => setHoveredCard(2)}
               onMouseLeave={() => setHoveredCard(null)}
             >
@@ -101,7 +101,7 @@ export default function Home() {
               </ul>
               <Link
                 to="/programs"
-                className="text-purple-400 hover:text-purple-300 font-semibold flex items-center gap-2"
+                className="text-orange-400 hover:text-orange-300 font-semibold flex items-center gap-2"
               >
                 Learn More →
               </Link>
@@ -117,12 +117,12 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-6">
             {/* Community Card 1 */}
-            <div className="bg-gradient-to-br from-blue-500/20 to-cyan-600/20 border border-blue-500/30 rounded-lg p-6 hover:border-blue-400 transition-all duration-300">
+            <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/20 rounded-lg p-6 hover:border-green-400 transition-all duration-300">
               <h3 className="text-xl font-bold mb-3">Sliding Scale Sessions</h3>
               <p className="text-gray-300 mb-4">
                 Accessible 1:1 coaching for all income levels. Your financial situation should never be a barrier to transformation.
               </p>
-              <Link to="/contact" className="text-blue-400 hover:text-blue-300 font-semibold">
+              <Link to="/contact" className="text-green-400 hover:text-green-300 font-semibold">
                 Learn More →
               </Link>
             </div>
@@ -139,12 +139,12 @@ export default function Home() {
             </div>
 
             {/* Community Card 3 */}
-            <div className="bg-gradient-to-br from-amber-500/20 to-yellow-600/20 border border-amber-500/30 rounded-lg p-6 hover:border-amber-400 transition-all duration-300">
+            <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/20 rounded-lg p-6 hover:border-orange-400 transition-all duration-300">
               <h3 className="text-xl font-bold mb-3">Non-Profit Hiking</h3>
               <p className="text-gray-300 mb-4">
                 Community work and outdoor adventures. Build strength while giving back to the community.
               </p>
-              <Link to="/contact" className="text-amber-400 hover:text-amber-300 font-semibold">
+              <Link to="/contact" className="text-orange-400 hover:text-orange-300 font-semibold">
                 Learn More →
               </Link>
             </div>
