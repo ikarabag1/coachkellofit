@@ -133,7 +133,7 @@ export default function Programs() {
                   <ul className="space-y-3 mb-8">
                     {program.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start gap-3">
-                        <span className="text-green-400 mt-1">✓</span>
+                        <span className="text-orange-400 mt-1">✓</span>
                         <span className="text-gray-300">{feature}</span>
                       </li>
                     ))}
@@ -165,7 +165,7 @@ export default function Programs() {
               { title: 'Community Focused', description: 'Building stronger communities together' },
             ].map((item, idx) => (
               <div key={idx} className="text-center">
-                <h3 className="text-xl font-bold mb-3 text-green-400">{item.title}</h3>
+                <h3 className="text-xl font-bold mb-3 bg-gradient-to-r from-green-400 to-orange-400 bg-clip-text text-transparent">{item.title}</h3>
                 <p className="text-gray-300">{item.description}</p>
               </div>
             ))}

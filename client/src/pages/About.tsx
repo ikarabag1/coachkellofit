@@ -13,7 +13,7 @@ export default function About() {
           
           {/* Photo */}
           <div className="flex justify-center mb-12">
-            <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg p-1">
+            <div className="bg-gradient-to-br from-green-400 via-emerald-500 to-orange-500 rounded-lg p-1">
               <div className="w-[280px] h-[400px] md:w-[320px] md:h-[450px] rounded overflow-hidden">
                 <img 
                   src="/coach-photo-about.jpg" 
@@ -35,7 +35,7 @@ export default function About() {
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="bg-white/5 border border-white/10 rounded-lg p-6 text-center">
               <div className="text-4xl mb-3">🏆</div>
-              <h3 className="text-xl font-bold mb-2 text-green-400">NASM Certified</h3>
+              <h3 className="text-xl font-bold mb-2 text-orange-400">NASM Certified</h3>
               <p className="text-gray-300 text-sm">National Academy of Sports Medicine Certified Personal Trainer</p>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-lg p-6 text-center">
@@ -45,7 +45,7 @@ export default function About() {
             </div>
             <div className="bg-white/5 border border-white/10 rounded-lg p-6 text-center">
               <div className="text-4xl mb-3">🧘</div>
-              <h3 className="text-xl font-bold mb-2 text-green-400">Holistic Coach</h3>
+              <h3 className="text-xl font-bold mb-2 text-orange-400">Holistic Coach</h3>
               <p className="text-gray-300 text-sm">Physical, Mental, and Spiritual Transformation Guide</p>
             </div>
           </div>

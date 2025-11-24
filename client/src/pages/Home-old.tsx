@@ -14,24 +14,32 @@ export default function Home() {
       <section className="py-20 px-4 md:py-32">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <p className="text-green-400 text-sm font-semibold mb-2">ENGINEERED BY KELLO</p>
+            <p className="text-orange-400 text-sm font-semibold mb-2">ENGINEERED BY KELLO</p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              DISCOVER YOUR <span className="text-green-400">TRANSFORMATION</span>
+              DISCOVER YOUR <span className="bg-gradient-to-r from-green-400 to-orange-400 bg-clip-text text-transparent">TRANSFORMATION</span>
               <br />
               PHYSICAL, MENTAL, SPIRITUAL
             </h1>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
               Change your course of wellness and engineer a plan that is directly tailored to your holistic health goals. Kello W, NASM Certified Personal Trainer, combines science-backed training with a Plant-Based Alkaline Dr. Sebi Electric Nutritional Lifestyle.
             </p>
-            <Link
-              to="/quiz"
-              className="inline-block bg-green-500 hover:bg-green-600 text-black font-bold py-3 px-8 rounded transition-colors duration-300"
-            >
-              START YOUR JOURNEY
-            </Link>
+            <div className="flex gap-4 flex-wrap">
+              <Link
+                to="/quiz"
+                className="inline-block bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-black font-bold py-3 px-8 rounded transition-all duration-300"
+              >
+                START YOUR JOURNEY
+              </Link>
+              <Link
+                to="/programs"
+                className="inline-block bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold py-3 px-8 rounded transition-all duration-300"
+              >
+                VIEW PROGRAMS
+              </Link>
+            </div>
           </div>
           <div className="relative flex justify-center md:justify-end">
-            <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-lg p-1">
+            <div className="bg-gradient-to-br from-green-400 via-emerald-500 to-orange-500 rounded-lg p-1">
               <div className="w-[280px] h-[400px] md:w-[320px] md:h-[450px] rounded overflow-hidden">
                 <img 
                   src="/coach-photo.jpg" 
@@ -145,7 +153,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-green-600 to-emerald-700">
+      <section className="py-20 px-4 bg-gradient-to-r from-green-600 via-emerald-600 to-orange-600">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform?</h2>
           <p className="text-lg mb-8 text-white/90">

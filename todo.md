@@ -33,3 +33,6 @@
 - [x] Remove black letterbox edges at top and bottom of photo inside green frame
 - [x] Replace About Me page photo with new professional portrait
 - [x] Change all instances of "Okello" to "Kello" throughout the website
+- [x] Add more orange throughout website while maintaining balance
+- [x] Make orange a stronger secondary brand color alongside green
+- [x] Update all page components with balanced green-orange color scheme
