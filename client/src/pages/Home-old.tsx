@@ -1,10 +1,10 @@
-import { useState } from 'react'
 import { Link } from 'wouter'
+import { useState } from 'react'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 
 export default function Home() {
-  const [hoveredCard, setHoveredCard] = useState<number | null>(null)
+  const [, setHoveredCard] = useState<number | null>(null)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
@@ -54,8 +54,6 @@ export default function Home() {
             {/* Program Card 1 */}
             <div
               className="bg-gradient-to-br from-green-500/20 to-emerald-600/20 border border-green-500/30 rounded-lg p-8 hover:border-green-400 transition-all duration-300 cursor-pointer"
-              onMouseEnter={() => setHoveredCard(1)}
-              onMouseLeave={() => setHoveredCard(null)}
             >
               <h3 className="text-2xl font-bold mb-4">1:1 Personalized Training</h3>
               <p className="text-gray-300 mb-6">
